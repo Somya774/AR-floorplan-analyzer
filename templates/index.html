@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI 2D → 3D Image Generator</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #111; color: white; font-family: Arial; }
+    #controls {
+      position: absolute; top: 10px; left: 10px;
+      z-index: 10; background: rgba(0, 0, 0, 0.6);
+      padding: 10px; border-radius: 8px;
+    }
+    input, button { margin-top: 6px; }
+  </style>
+</head>
+<body>
+  <div id="controls">
+    <input type="file" id="fileInput" accept="image/*"><br>
+    <button id="generate">Generate 3D</button>
+  </div>
+
+  <!-- ✅ Use these exact versions -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js@r128/examples/js/controls/OrbitControls.js"></script>
+
+  <!-- Our app -->
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+body { margin: 0; overflow: hidden; background: #111; color: white; font-family: Arial; }
+#controls {
+  position: absolute; top: 10px; left: 10px; background: rgba(0,0,0,0.6);
+  padding: 10px; border-radius: 8px; z-index: 10;
+}
