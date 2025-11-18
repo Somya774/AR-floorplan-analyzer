@@ -6,7 +6,7 @@ Built using Computer Vision + 3D Graphics + AR, this project demonstrates strong
 
 This project is designed to help architects, designers, and clients better understand spatial layouts by experiencing them at real-world scale.
 
-⭐ Why This Project Matters 
+## ⭐ Why This Project Matters 
 
 Demonstrates end-to-end problem solving using CV + 3D + AR.
 
@@ -16,7 +16,7 @@ Showcases skills in image processing, mesh generation, AR rendering, and modern 
 
 Real-world use case for architecture, real estate, interior design, and educational demos.
 
-🚀 Key Features
+## 🚀 Key Features
 
 Upload a 2D floor-plan image
 
@@ -38,8 +38,70 @@ Computer Vision: OpenCV.js
 AR: WebXR API
 Tools: VS Code, local server, npm utilities
 
+## Tools & Technologies Used — AR Floorplan Analyzer
+🔹 Programming Languages
 
-📂 Project Structure
+Python (image processing & backend logic)
+
+C# (Unity scripting)
+
+Java / Kotlin (ARCore dependencies for Android build, if applicable)
+
+🔹 Frameworks & Engines
+
+Unity 3D (core engine for AR rendering)
+
+Unity AR Foundation (cross-platform AR functionality)
+
+ARCore (Google) (tracking, plane detection, AR environment)
+
+🔹 Image Processing & Conversion
+
+OpenCV (Python) – for:
+
+Floorplan contour detection
+
+Edge detection
+
+Shape extraction
+
+Room segmentation
+
+Pillow (PIL) – for image handling and preprocessing.
+
+🔹 3D Generation & Modeling
+
+Unity Mesh API (for generating 3D meshes from contours)
+
+ProBuilder (optional) (for manual adjustments or mesh refinement)
+
+Blender (optional) (if used for any model cleanup)
+
+🔹 Build & Deployment Tools
+
+Android SDK (for building APK)
+
+Unity Hub (project management)
+
+Gradle (Unity Android builds)
+
+🔹 File Formats & Integration
+
+  PNG / JPEG – input floorplan images
+
+JSON – passing extracted layout coordinates to Unity
+
+OBJ / FBX (optional) – for 3D layout export
+
+🔹 Additional Tools 
+
+Git / GitHub – version control
+
+VS Code / PyCharm – Python development
+
+Visual Studio / Rider – Unity C# scripting
+
+## 📂 Project Structure
 AR-FloorPlan-Prototype/
 │── index.html
 │── app.js
@@ -60,7 +122,7 @@ Scene rendered using Three.js
 
 WebXR places model in AR for real-scale viewing
 
-📌 Future Scope
+## 📌 Future Scope
 
 AI-based room segmentation
 
@@ -74,8 +136,8 @@ Export to GLB/OBJ
 AR: WebXR API
 Tools: VS Code, local server, npm utilities
 
-👤 Author
-Somya
+## 👤 Author
+Somya  Agerawal
 
 B.Tech CSE | Computer Vision & AI | AR/VR Projects | Data Science Enthusiast
 
